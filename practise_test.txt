@@ -1,0 +1,175 @@
+Assignment 
+
+         You are working at a healthcare facility as a data analyst. The facility is carrying out research related to body mass index.   
+
+The objectives of this research is to explore the relation between body mass index (BMI) and prevalence of Diabetes, Hypertension and Dyslipidemia.  
+
+As part of the study the researchers are examining BMI distributions among patients with these conditions.  
+
+The following results were obtained from the study:  
+
+If the average BMI of a group of patients is between 22.0 to 25.6 ; the prevalence of Diabetes is found among the group.  
+
+If the average BMI of a group of patients is between 18.0 to 21.99 ; the prevalence of Hypertension is found among the group.  
+
+If the average BMI of a group of patients is greater than 25.6 ; prevalence of Dyslipidemia is found among the group.  
+
+You are given a data set related to a group of patients. The dataset includes the following information:  
+
+Number of patients in the group  
+
+Height of each patient in meters  
+
+Weight of each patient in kgs  
+
+You are required to perform numpy operations to determine the average BMI of the group and print the prevalence of diseases associated with the range as given in the problem statement.  
+
+BMI = Weight/(Height)^2 where,  
+
+Weight is in kgs  	Height is in meters  
+
+Input Format  
+
+The first line contains an integer denoting the number of patients (N) in the group  
+
+The second line contains N space-separated integers denoting the values of height of each patient  
+
+The third line contains N space-separated integers denoting the values of weight of each patient.   
+
+Output format  
+
+ Print the prevalence of disease associated with the range as given in the problem statement  
+
+Sample Test Cases  
+
+Sample Input  
+
+4  
+
+1.5 1.75 1.63 1.71 56 75 62 75  
+
+Sample Output  
+
+Diabetes  
+
+  
+
+ 
+
+  
+
+  
+
+2. Marines! At Your Positions!!                                                    marks: 30  
+
+Write a Python program that does the following:  
+
+takes a list as input - list_input  
+
+takes another list as input - list_pos  
+
+ 	creates a Pandas Series from list_input  
+
+ 	prints all values of list_input which are present at the positions listed out by list_pos  
+
+Input Format  
+
+The first line contains space-separated values (this value can be of any data type), which represent the elements of the list list_input  
+
+The second line contains space-separated integers, which represent the elements of the list list_pos.  
+
+These positions are on 0-based indexing, i.e. indexing starts from 0.  
+
+Output Format  
+
+ 	For the positions listed out by list_pos, print all values from list_input which are present at those locations, along with its dtype Sample Input  
+
+a b c d e f g h i j k l m n o p q r s t u v w x y z  
+
+0 4 8 14 20  
+
+Sample Output  
+
+0     a  
+
+4     e  
+
+8     i  
+
+14    o 20    u dtype: object  
+
+Explanation  
+
+Based on 0-based indexing, the values of list_input present at the positions: 0, 4, 8, 14 and 20 ARE a, e, i, o and u respectively.  
+
+  
+
+ 
+
+3. Series                                                                                   marks: 40  
+
+  
+
+Write a program that does the following:  
+
+takes a list as input  
+
+creates a Pandas Series from the list above  
+
+takes a string as input and assigns the string as a name to the Series  
+
+takes the inputs for n & pos and prints some (n) rows from the first OR last of the Series, depending on the input  
+
+Input Format  
+
+The first line contains the elements of the list  
+
+The second line contains a string which is to be used as a name for the Pandas Series being generated.  
+
+The last line contains two space-separated integers:  
+
+n - This represents the number of rows that you have to print from the Series.  
+
+pos - This represents the position from where the rows have to be extracted. This can be only 1 (first) or 0 (last).  
+
+Output Format  
+
+Depending on the values of n and pos, print the first/last n rows of the Series on to the STDOUT  
+
+Print the Name and dtype of the output Series with its name (from input) and data type.  
+
+Sample Input  
+
+a b c e d f g h i j k l m n o p q r s t u v w x y z alphabets  
+
+3 1  
+
+Sample Output  
+
+a  
+
+b  
+
+c  
+
+Name: alphabets, dtype: object  
+
+Explanation  
+
+Based on the values of n (3) and pos (1), you have to print the 1st 3 rows of the Series.  
+
+The Name of the Series is alphabets, as obtained from the input.  
+
+The dtype of the Series is object.  
+
+  
+
+ 
+
+  
+
+  
+
+  
+
+  
